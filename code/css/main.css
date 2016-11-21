@@ -1,0 +1,117 @@
+
+
+#chart {
+    top:25px;
+    display:block;
+    width:600px;
+    height:400px;
+    position:absolute;
+}
+
+#code_attention_container {
+    position:absolute;
+    left: 610px;
+    top:10px;
+    height:700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.code_attention_div {
+    border: 2px solid gray;
+    height: 250px;
+    width: 700px;
+
+}
+.codeInfoDiv {
+    height:250px;
+    width:200px;
+    border : 1px solid gray;
+    position: absolute;
+    left : 0
+}
+
+.codeInfoDiv > h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ancestorInfoDiv {
+    height : 250px;
+    width : 200px;
+    border : 1px solid gray;
+    position : absolute;
+    left : 200px;
+    padding-top: 5px;
+    border-bottom: 0;
+}
+.ancestorTextDiv {
+    height : 35px;
+    text-align: right;
+    padding-right:5px;
+}
+
+.ancestorTextDiv > text {
+    font-size: 12px;
+}
+
+.treeContainerDiv {
+    height : 250px;
+    width : 100px;
+    border : 1px solid gray;
+    position : absolute;
+    left : 400px;
+}
+
+.ancestorBarChartDiv {
+    height : 250px;
+    width : 200px;
+    border : 1px solid gray;
+    position : absolute;
+    left : 500px;
+}
+
+.lasso path {
+    stroke: rgb(80,80,80);
+    stroke-width:2px;
+}
+
+.lasso .drawn {
+    fill-opacity:.05 ;
+}
+
+.lasso .loop_close {
+    fill:none;
+    stroke-dasharray: 4,4;
+}
+
+.lasso .origin {
+    fill:#3399FF;
+    fill-opacity:.5;
+}
+
+.not_possible {
+    fill: #ddd1ce;
+    opacity:.2;
+}
+
+.possible {
+    fill: #a7acaa;
+}
+
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    pointer-events: none;
+    top:-50px;
+}
+
+.legend {
+    position:absolute;
+    width : 600px;
+    height : 300px;
+    top:430px;
+}

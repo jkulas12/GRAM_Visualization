@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GRAM</title>
+</head>
+<body>
+    <button onclick="showHelpText()">Help</button>
+    <div id = 'vizBody'>
+        <svg id = 'chart'></svg>
+        <div id = 'code_attention_container' style="visibility: hidden"></div>
+    </div>
+    <div id = 'helpWindow' style="visibility: hidden">
+        <button id = 'showVizButton' onclick="showVisualization()">Show Visualization</button>
+    </div>
+</body>
+
+
+<script src="code/dependencies/jquery-ui/external/jquery/jquery.js"></script>
+<script src="code/dependencies/jquery-ui/jquery-ui.js"></script>
+<script src="code/dependencies/d3.v3.js"></script>
+<script src="code/dependencies/jquery.tablesorter.js"></script>
+<script src = "code/dependencies/lasso.min.js"></script>
+
+<link rel="stylesheet" href="code/dependencies/jquery-ui/jquery-ui.css"/>
+<link rel="stylesheet" href="code/css/main.css">
+<script src="code/src/main.js"></script>
+</html>
